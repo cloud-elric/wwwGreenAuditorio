@@ -545,13 +545,9 @@ body {
 .container-home {
   justify-content: center;
   align-items: center;
-  background-image: url("../images/web-bkgd.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover; }
-  @media screen and (max-width: 768px) {
-    .container-home {
-      background-image: url("../images/web-bkgd-movil.jpg"); } }
   .container-home .selecciona-tarjeta-wrapper {
     text-align: center;
     margin-top: 300px; }
@@ -575,14 +571,11 @@ body {
 
 .logo-evento {
   position: fixed;
-  top: 10%;
-  left: 50%;
-  margin-left: -30%;
-  z-index: 1;
-  width: 60%; }
+  top: 0%;
+  left: 0%;
+  z-index: 1; }
   @media screen and (max-width: 768px) {
     .logo-evento {
-      width: 90%;
-      margin-left: -45%; } }
+      width: 90%; } }
 
 /*# sourceMappingURL=site.css.map */
