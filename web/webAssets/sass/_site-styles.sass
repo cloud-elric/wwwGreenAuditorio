@@ -126,19 +126,21 @@ body
 	/* Para la pantalla de premio */
 
 	.premio
-		width: 690px
+		width: 500px
 		text-align: center
-		margin-top: 150px
-		position: relative
 		+respond-to(xs)
-			width: 80%
+			width: 90%
 			margin: 0 auto
+		h1,h3,p
+			margin-bottom: 10px
+		h1
+			color: $accent
+			max-width: 100%
+		h3
+			color: $primary
+
 		p
 			margin-bottom: 20px
-			font-size: 1.5em
-			text-align: center
-			+respond-to(xs)
-				font-size: 1.2em
 
 .container-ribbon,
 .container-premio

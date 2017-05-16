@@ -8,11 +8,9 @@ $this->title="Gracias por participar";
 <!-- Premio contenedor -->
 	<div class="js-premio-contenedor" style="text-align:center">
 		<div class="premio js-premio-ajax">
-            <p class="bold">
-                <span class="primary-color">Gracias por participar</span>,
-                <?=$nombrePremio?>
-
-            </p>
+			<h1><?=$nombrePremio?></h1>
+			<h3>Felicidades</h3>
+			<p>Tu habilidad te recompenso</p>
 		</div>
 		<a class="btn btn-primary" href="<?=Url::base()?>">Finalizar</a>
 	</div>

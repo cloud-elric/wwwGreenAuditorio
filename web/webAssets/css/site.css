@@ -506,21 +506,21 @@ body {
       .container .form-wrapper .form-cta-wrapper a {
         margin: 0 auto; }
   .container .premio {
-    width: 690px;
-    text-align: center;
-    margin-top: 150px;
-    position: relative; }
+    width: 500px;
+    text-align: center; }
     @media screen and (max-width: 768px) {
       .container .premio {
-        width: 80%;
+        width: 90%;
         margin: 0 auto; } }
+    .container .premio h1, .container .premio h3, .container .premio p {
+      margin-bottom: 10px; }
+    .container .premio h1 {
+      color: #EAB92C;
+      max-width: 100%; }
+    .container .premio h3 {
+      color: #D98C34; }
     .container .premio p {
-      margin-bottom: 20px;
-      font-size: 1.5em;
-      text-align: center; }
-      @media screen and (max-width: 768px) {
-        .container .premio p {
-          font-size: 1.2em; } }
+      margin-bottom: 20px; }
 
 .container-ribbon,
 .container-premio {
