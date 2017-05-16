@@ -10,7 +10,7 @@ if (YII_ENV_DEV) {
 } else {
   return [
       'class' => 'yii\db\Connection',
-      'dsn' => 'mysql:host=www.participagana.com.mx;dbname=particip_GeekDev',
+      'dsn' => 'mysql:host=localhost;dbname=particip_GeekDev',
       'username' => 'particip_auditorio',
       'password' => 'c0d1ngG33k',
       'charset' => 'utf8',
