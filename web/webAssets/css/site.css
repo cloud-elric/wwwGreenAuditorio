@@ -517,7 +517,7 @@ body {
     .container .premio p {
       margin-bottom: 20px;
       font-size: 1.5em;
-      text-align: left; }
+      text-align: center; }
       @media screen and (max-width: 768px) {
         .container .premio p {
           font-size: 1.2em; } }

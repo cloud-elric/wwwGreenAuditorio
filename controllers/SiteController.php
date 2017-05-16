@@ -75,11 +75,11 @@ class SiteController extends Controller {
 	public function actionRegistro(){
 		$usuario = new EntUsuarios ();
 
-		$usuario->id_evento = 1;	
+		$usuario->id_evento = 1;
 
 		if ($usuario->load ( Yii::$app->request->post () )) {
 
-			$premios = ViewPremiosRestantes::find()->where(['b_habilitado'=>1])->all();	
+			$premios = ViewPremiosRestantes::find()->where(['b_habilitado'=>1])->all();
 
 			if ($usuario->save ()) {
 				$numUsuarios = EntUsuarios::find()->count();
@@ -88,18 +88,18 @@ class SiteController extends Controller {
 				$premioEncontrado = false;
 				$token = null;
 				foreach($premios as $premio){
-					
+
 					if(!$premioEncontrado){
 						if((($numUsuarios % $premio->num_otorga) == 0)){
-							
+
 							if($premio->num_limite==0){
 								$premioEncontrado = true;
 								$idPremio = $premio->id_premio;
 							}else if($premio->num_limite > $premio->num_premios_dados){
 								$premioEncontrado = true;
-								$idPremio = $premio->id_premio;	
+								$idPremio = $premio->id_premio;
 							}
-							
+
 							if($premioEncontrado){
 								$premioGanado = new RelUsuarioPremio();
 								$premioGanado->id_usuario = $usuario->id_usuario;
@@ -111,9 +111,9 @@ class SiteController extends Controller {
 
 						}
 					}
-						
+
 				}
-				
+
 
 				return $this->redirect(['ver-premio', 'token'=>$token]);
 			}
@@ -131,7 +131,7 @@ class SiteController extends Controller {
 		$usuarioPremio = RelUsuarioPremio::find()->where(['txt_token'=>$token])->one();
 
 		if($usuarioPremio){
-			$nombrePremio = $usuarioPremio->IdPremio->txt_nombre;
+			$nombrePremio = $usuarioPremio->idPremio->txt_nombre;
 		}
 
 		return $this->render('premio',['nombrePremio'=>$nombrePremio]);
@@ -143,12 +143,12 @@ class SiteController extends Controller {
 	public function actionGuardarInformacion($tokenEvento=null) {
 
 		$usuario = new EntUsuarios ();
-		$usuario->id_evento = 1;	
+		$usuario->id_evento = 1;
 
-		if ($usuario->load ( Yii::$app->request->post () )) {	
+		if ($usuario->load ( Yii::$app->request->post () )) {
 
 			if ($usuario->save ()) {
-				
+
 			}
 
 			return $this->renderAjax ( 'mucha-suerte' );
@@ -168,25 +168,25 @@ class SiteController extends Controller {
 
 		$arrayCsv = [ ];
 		$i = 0;
-		
+
 		foreach ( $usuarios as $data ) {
-			
+
 			$arrayCsv [$i] ['nombreCompleto'] = $data->txt_nombre_completo;
 			$arrayCsv [$i] ['telefonoCelular'] = $data->txt_telefono_celular;
 			$arrayCsv [$i] ['codigoPostal'] = $data->txt_cp;
 			$arrayCsv [$i] ['numEdad'] = $data->num_edad;
 			$arrayCsv [$i] ['numPatos'] = $data->num_patos;
 			$arrayCsv [$i] ['fchRegistro'] = $data->fch_registro;
-			
+
 			$i++;
 		}
-		
-		
+
+
 	//print_r($arrayCsv );
 	//exit ();
-		
+
 		$this->downloadSendHeaders ( 'reporte.csv' );
-		
+
 		echo $this->array2Csv ( $arrayCsv );
 		die();
 
@@ -198,13 +198,13 @@ class SiteController extends Controller {
 		}
 		ob_start();
 		$df = fopen ( "php://output", "w" );
-		fputcsv ( $df, [ 
+		fputcsv ( $df, [
 				'Nombre completo',
 				'Telefono',
 				'C.P.',
 				'Edad',
 				'Num patos',
-				'Fecha registro' 
+				'Fecha registro'
 		]
 		 );
 
@@ -215,23 +215,23 @@ class SiteController extends Controller {
 		fclose ( $df );
 		return ob_get_clean();
 	}
-	
-	
-	
-	
+
+
+
+
 	private function downloadSendHeaders($filename) {
 		// disable caching
 		$now = gmdate ( "D, d M Y H:i:s" );
 		// header("Expires: Tue, 03 Jul 2001 06:00:00 GMT");
 		header ( "Cache-Control: max-age=0, no-cache, must-revalidate, proxy-revalidate" );
 		header ( "Last-Modified: {$now} GMT" );
-		
+
 		// force download
 		header ( "Content-Type: application/force-download" );
 		header ( "Content-Type: application/octet-stream" );
 		// comentario sin sentido
 		header ( "Content-Type: application/download" );
-		
+
 		// disposition / encoding on response body
 		header ( "Content-Disposition: attachment;filename={$filename}" );
 		header ( "Content-Transfer-Encoding: binary" );
