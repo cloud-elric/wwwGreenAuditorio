@@ -118,7 +118,7 @@ class SiteController extends Controller {
 				return $this->redirect(['ver-premio', 'token'=>$token]);
 			}
 
-			return $this->render( 'mucha-suerte' );
+			
 		}
 
 		return $this->render ( 'registro', [
@@ -127,7 +127,9 @@ class SiteController extends Controller {
 	}
 
 	public function actionVerPremio($token=""){
-		$nombrePremio = "Sigue participando";
+		$nombrePremio = "<h3>¡Estuviste muy cerca!</h3>
+			<h1>Mejor suerte para la próxima</h1>
+			<p>Fiesta Americana agradece tu participación.</p>";
 		$usuarioPremio = RelUsuarioPremio::find()->where(['txt_token'=>$token])->one();
 
 		if($usuarioPremio){
@@ -163,7 +165,7 @@ class SiteController extends Controller {
 	/**
 	 * Descarga un csv con la informacion necesaria
 	 */
-	public function actionDescargarRegistros892klasl3l(){
+	public function actionDescargarRegistros3289ldksd339ffd3jl(){
 		$usuarios = EntUsuarios::find()->all();
 
 		$arrayCsv = [ ];
