@@ -11,6 +11,7 @@ use app\models\EntUsuarios;
 use yii\db\Expression;
 use app\models\ViewPremiosRestantes;
 use app\models\RelUsuarioPremio;
+use app\models\ViewUsuarioDatos;
 
 class SiteController extends Controller {
 	/**
@@ -166,7 +167,7 @@ class SiteController extends Controller {
 	 * Descarga un csv con la informacion necesaria
 	 */
 	public function actionDescargarRegistros3289ldksd339ffd3jl(){
-		$usuarios = EntUsuarios::find()->all();
+		$usuarios = ViewUsuarioDatos::find()->all();
 
 		$arrayCsv = [ ];
 		$i = 0;
@@ -177,8 +178,10 @@ class SiteController extends Controller {
 			$arrayCsv [$i] ['telefonoCelular'] = $data->txt_telefono_celular;
 			$arrayCsv [$i] ['codigoPostal'] = $data->txt_cp;
 			$arrayCsv [$i] ['numEdad'] = $data->num_edad;
-			$arrayCsv [$i] ['numPatos'] = $data->num_patos;
 			$arrayCsv [$i] ['fchRegistro'] = $data->fch_registro;
+			$arrayCsv [$i] ['aceptoTerminos'] = $data->acepto_terminos;
+			$arrayCsv [$i] ['premio'] = $data->txt_premio;
+			
 
 			$i++;
 		}
@@ -205,8 +208,9 @@ class SiteController extends Controller {
 				'Telefono',
 				'C.P.',
 				'Edad',
-				'Num patos',
-				'Fecha registro'
+				'Fecha registro',
+				'Acepto terminos',
+				'Premio'
 		]
 		 );
 

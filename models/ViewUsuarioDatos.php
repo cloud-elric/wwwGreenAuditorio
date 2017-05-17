@@ -13,7 +13,7 @@ use Yii;
  * @property string $num_edad
  * @property string $fch_registro
  * @property string $acepto_terminos
- * @property string $IFNULL(CP.txt_nombre, 'Sin premio')
+ * @property string $txt_premio
  */
 class ViewUsuarioDatos extends \yii\db\ActiveRecord
 {
@@ -38,7 +38,7 @@ class ViewUsuarioDatos extends \yii\db\ActiveRecord
             [['txt_telefono_celular'], 'string', 'max' => 10],
             [['txt_cp'], 'string', 'max' => 5],
             [['acepto_terminos'], 'string', 'max' => 29],
-            [['IFNULL(CP.txt_nombre, 'Sin premio')'], 'string', 'max' => 500],
+            [['txt_premio'], 'string', 'max' => 500],
         ];
     }
 
@@ -54,7 +54,7 @@ class ViewUsuarioDatos extends \yii\db\ActiveRecord
             'num_edad' => 'Num Edad',
             'fch_registro' => 'Fch Registro',
             'acepto_terminos' => 'Acepto Terminos',
-            'IFNULL(CP.txt_nombre, 'Sin premio')' => 'Ifnull( Cp Txt Nombre, \' Sin Premio\')',
+            'txt_premio' => 'Txt Premio',
         ];
     }
 }
