@@ -95,7 +95,7 @@ class SiteController extends Controller {
 							if($premio->num_limite==0){
 								$premioEncontrado = true;
 								$idPremio = $premio->id_premio;
-							}else if($premio->num_limite > $premio->num_premios_dados){
+							}else if($premio->num_limite_dia > $premio->num_premios_dados){
 								$premioEncontrado = true;
 								$idPremio = $premio->id_premio;
 							}
