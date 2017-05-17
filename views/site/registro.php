@@ -39,6 +39,7 @@ $this->title="Registro";
 				] )->label(false);
 				// Genera un input
 				echo $form->field ( $usuario, 'txt_telefono_celular' )->textInput ( [
+						'type'=>'number',
 						'maxlength' => 10,
 						'placeholder'=>'Teléfono'
 				] )->label(false);
