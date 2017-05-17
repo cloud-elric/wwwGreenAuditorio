@@ -533,16 +533,34 @@
 		"oAP": "\/runtime\/debug\/591b8eb0409a9.data",
 		"oF": 0
 		},
+	"\/runtime\/debug\/591b8f27852fb.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/591b8f27852fb.data",
+		"oF": 0
+		},
 	"\/runtime\/debug\/index.data": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/runtime\/debug\/index.data",
 		"oF": 0
 		},
+	"\/runtime\/HTML\/4.8.0,b6889960956c877d241a7e8f87e613efc7a3611d,1.ser": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/HTML\/4.8.0,b6889960956c877d241a7e8f87e613efc7a3611d,1.ser",
+		"oF": 0
+		},
 	"\/runtime\/logs": {
 		"ft": 65536,
 		"oA": 1,
 		"oAP": "\/build\/runtime\/logs",
+		"oF": 0
+		},
+	"\/runtime\/URI\/4.8.0,3478238e680361cd87bf880f5b3cc50a1e7abc6c,1.ser": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/URI\/4.8.0,3478238e680361cd87bf880f5b3cc50a1e7abc6c,1.ser",
 		"oF": 0
 		},
 	"\/tests\/_bootstrap.php": {
@@ -17840,6 +17858,55 @@
 		"oAP": "\/web\/assets\/.gitignore",
 		"oF": 0
 		},
+	"\/web\/assets\/98dc973e\/arrow.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/web\/assets\/98dc973e\/arrow.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/web\/assets\/98dc973e\/main.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/web\/assets\/98dc973e\/main-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/web\/assets\/98dc973e\/maximize.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/web\/assets\/98dc973e\/maximize.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/web\/assets\/98dc973e\/toolbar.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/web\/assets\/98dc973e\/toolbar-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/web\/assets\/98dc973e\/toolbar.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/web\/assets\/98dc973e\/toolbar-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/web\/assets\/a8cafb66\/jquery.js": {
 		"ft": 64,
 		"mi": 1,
@@ -17905,6 +17972,119 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/web\/assets\/c0984c31\/yii.validation-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/web\/assets\/edc929d5\/css\/bootstrap-theme.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/web\/assets\/edc929d5\/css\/bootstrap-theme-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/web\/assets\/edc929d5\/css\/bootstrap-theme.css.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/web\/assets\/edc929d5\/css\/bootstrap-theme.css.map",
+		"oF": 0
+		},
+	"\/web\/assets\/edc929d5\/css\/bootstrap-theme.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/web\/assets\/edc929d5\/css\/bootstrap-theme.min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/web\/assets\/edc929d5\/css\/bootstrap.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/web\/assets\/edc929d5\/css\/bootstrap-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/web\/assets\/edc929d5\/css\/bootstrap.css.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/web\/assets\/edc929d5\/css\/bootstrap.css.map",
+		"oF": 0
+		},
+	"\/web\/assets\/edc929d5\/css\/bootstrap.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/web\/assets\/edc929d5\/css\/bootstrap.min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/web\/assets\/edc929d5\/fonts\/glyphicons-halflings-regular.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/web\/assets\/edc929d5\/fonts\/glyphicons-halflings-regular.eot",
+		"oF": 0
+		},
+	"\/web\/assets\/edc929d5\/fonts\/glyphicons-halflings-regular.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/web\/assets\/edc929d5\/fonts\/glyphicons-halflings-regular.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/web\/assets\/edc929d5\/fonts\/glyphicons-halflings-regular.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/web\/assets\/edc929d5\/fonts\/glyphicons-halflings-regular.ttf",
+		"oF": 0
+		},
+	"\/web\/assets\/edc929d5\/fonts\/glyphicons-halflings-regular.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/web\/assets\/edc929d5\/fonts\/glyphicons-halflings-regular.woff",
+		"oF": 0
+		},
+	"\/web\/assets\/edc929d5\/fonts\/glyphicons-halflings-regular.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/web\/assets\/edc929d5\/fonts\/glyphicons-halflings-regular.woff2",
+		"oF": 0
+		},
+	"\/web\/assets\/edc929d5\/js\/bootstrap.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/web\/assets\/edc929d5\/js\/bootstrap-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/web\/assets\/edc929d5\/js\/bootstrap.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/web\/assets\/edc929d5\/js\/bootstrap.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/web\/assets\/edc929d5\/js\/npm.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/web\/assets\/edc929d5\/js\/npm-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -18020,17 +18200,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/web\/webAssets\/images\/logo-giro.png": {
-		"ft": 32768,
-		"iS": 9138,
-		"oA": 0,
-		"oAP": "\/web\/webAssets\/images\/logo-giro.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"\/web\/webAssets\/images\/ribbon.png": {
 		"ft": 32768,
 		"iS": 8963,
@@ -18040,26 +18209,6 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
-		},
-	"\/web\/webAssets\/images\/web-bkgd-movil.jpg": {
-		"ft": 16384,
-		"iS": 109896,
-		"oA": 0,
-		"oAP": "\/web\/webAssets\/images\/web-bkgd-movil.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/web\/webAssets\/images\/web-bkgd.jpg": {
-		"ft": 16384,
-		"iS": 251617,
-		"oA": 0,
-		"oAP": "\/web\/webAssets\/images\/web-bkgd.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
 		"q": 100
 		},
 	"\/web\/webAssets\/js\/jquery-3.1.1.min.js": {
