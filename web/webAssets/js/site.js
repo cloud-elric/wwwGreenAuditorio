@@ -130,6 +130,13 @@ $(document).ready(function () {
 				return false;
 			}
 
+			if(!$('.js-check-box-aviso').hasClass('js-check-box-aviso-checked')){
+				sweetAlert("Espera", "Debes aceptar el aviso de privacidad", "warning");
+				return false;
+			}
+
+			
+
 			var l = Ladda.create(document.getElementById('js-btn-guardar-informacion'));
 			l.start();
 
