@@ -126,19 +126,21 @@ body
 	/* Para la pantalla de premio */
 
 	.premio
-		width: 690px
+		width: 500px
 		text-align: center
-		margin-top: 150px
-		position: relative
 		+respond-to(xs)
-			width: 80%
+			width: 90%
 			margin: 0 auto
+		h1,h3,p
+			margin-bottom: 10px
+		h1
+			color: $accent
+			max-width: 100%
+		h3
+			color: $primary
+
 		p
 			margin-bottom: 20px
-			font-size: 1.5em
-			text-align: center
-			+respond-to(xs)
-				font-size: 1.2em
 
 .container-ribbon,
 .container-premio
@@ -164,13 +166,13 @@ body
 	justify-content: center
 	align-items: center
 	background:
-		image: url("../images/web-bkgd.jpg")
+		//image: url("../images/web-bkgd.jpg")
 		position: center
 		repeat: no-repeat
 		size: cover
 	+respond-to(xs)
 		background:
-			image: url("../images/web-bkgd-movil.jpg")
+			//image: url("../images/web-bkgd-movil.jpg")
 
 
 	.selecciona-tarjeta-wrapper
@@ -202,11 +204,10 @@ body
 
 .logo-evento
 	position: fixed
-	top: 10%
-	left: 50%
-	margin-left: -30%
+	top: 0%
+	left: 0%
 	z-index: 1
-	width: 60%
+	//width: 60%
 	+respond-to(xs)
 		width: 90%
-		margin-left: -45%
+		//margin-left: -45%

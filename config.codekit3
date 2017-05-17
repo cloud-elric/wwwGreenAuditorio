@@ -203,72 +203,6 @@
 		"oAP": "\/runtime\/.gitignore",
 		"oF": 0
 		},
-	"\/runtime\/debug\/591b24334c8a9.data": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/runtime\/debug\/591b24334c8a9.data",
-		"oF": 0
-		},
-	"\/runtime\/debug\/591b2435d407d.data": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/runtime\/debug\/591b2435d407d.data",
-		"oF": 0
-		},
-	"\/runtime\/debug\/591b24cf16520.data": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/runtime\/debug\/591b24cf16520.data",
-		"oF": 0
-		},
-	"\/runtime\/debug\/591b24ddb20ad.data": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/runtime\/debug\/591b24ddb20ad.data",
-		"oF": 0
-		},
-	"\/runtime\/debug\/591b24de91efd.data": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/runtime\/debug\/591b24de91efd.data",
-		"oF": 0
-		},
-	"\/runtime\/debug\/591b25190d0ee.data": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/runtime\/debug\/591b25190d0ee.data",
-		"oF": 0
-		},
-	"\/runtime\/debug\/591b26f3cc6d6.data": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/runtime\/debug\/591b26f3cc6d6.data",
-		"oF": 0
-		},
-	"\/runtime\/debug\/591b2700ec994.data": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/runtime\/debug\/591b2700ec994.data",
-		"oF": 0
-		},
-	"\/runtime\/debug\/591b2728c5091.data": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/runtime\/debug\/591b2728c5091.data",
-		"oF": 0
-		},
-	"\/runtime\/debug\/591b272a26c1d.data": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/runtime\/debug\/591b272a26c1d.data",
-		"oF": 0
-		},
-	"\/runtime\/debug\/591b2736dfa61.data": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/runtime\/debug\/591b2736dfa61.data",
-		"oF": 0
-		},
 	"\/runtime\/debug\/591b273c6861b.data": {
 		"ft": 8192,
 		"oA": 2,
@@ -407,16 +341,226 @@
 		"oAP": "\/runtime\/debug\/591b2a7e2cb8a.data",
 		"oF": 0
 		},
+	"\/runtime\/debug\/591b795146c63.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/591b795146c63.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/591b79d15c251.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/591b79d15c251.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/591b89077c6e3.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/591b89077c6e3.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/591b891062441.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/591b891062441.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/591b8aceddd9a.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/591b8aceddd9a.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/591b8ad1d4722.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/591b8ad1d4722.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/591b8ae5c8cef.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/591b8ae5c8cef.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/591b8ae7071b3.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/591b8ae7071b3.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/591b8bbce4298.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/591b8bbce4298.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/591b8bbebf6fb.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/591b8bbebf6fb.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/591b8bcb78be3.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/591b8bcb78be3.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/591b8bcc43e15.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/591b8bcc43e15.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/591b8bef3d2cc.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/591b8bef3d2cc.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/591b8c6fe5c13.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/591b8c6fe5c13.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/591b8dc499859.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/591b8dc499859.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/591b8dc4c3ef1.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/591b8dc4c3ef1.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/591b8e091fc0a.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/591b8e091fc0a.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/591b8e0948cfe.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/591b8e0948cfe.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/591b8e09c129b.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/591b8e09c129b.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/591b8e1c44c06.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/591b8e1c44c06.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/591b8e2ada50d.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/591b8e2ada50d.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/591b8e3232678.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/591b8e3232678.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/591b8e4817821.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/591b8e4817821.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/591b8e67468c3.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/591b8e67468c3.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/591b8e7ac059d.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/591b8e7ac059d.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/591b8e85aaad7.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/591b8e85aaad7.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/591b8e8c1c19c.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/591b8e8c1c19c.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/591b8e952f780.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/591b8e952f780.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/591b8e9851262.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/591b8e9851262.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/591b8e9c8cc2e.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/591b8e9c8cc2e.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/591b8ea32901e.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/591b8ea32901e.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/591b8eb0409a9.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/591b8eb0409a9.data",
+		"oF": 0
+		},
+	"\/runtime\/debug\/591b8f27852fb.data": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/debug\/591b8f27852fb.data",
+		"oF": 0
+		},
 	"\/runtime\/debug\/index.data": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/runtime\/debug\/index.data",
 		"oF": 0
 		},
+	"\/runtime\/HTML\/4.8.0,b6889960956c877d241a7e8f87e613efc7a3611d,1.ser": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/HTML\/4.8.0,b6889960956c877d241a7e8f87e613efc7a3611d,1.ser",
+		"oF": 0
+		},
 	"\/runtime\/logs": {
 		"ft": 65536,
 		"oA": 1,
 		"oAP": "\/build\/runtime\/logs",
+		"oF": 0
+		},
+	"\/runtime\/URI\/4.8.0,3478238e680361cd87bf880f5b3cc50a1e7abc6c,1.ser": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/runtime\/URI\/4.8.0,3478238e680361cd87bf880f5b3cc50a1e7abc6c,1.ser",
 		"oF": 0
 		},
 	"\/tests\/_bootstrap.php": {
@@ -17714,6 +17858,55 @@
 		"oAP": "\/web\/assets\/.gitignore",
 		"oF": 0
 		},
+	"\/web\/assets\/98dc973e\/arrow.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/web\/assets\/98dc973e\/arrow.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/web\/assets\/98dc973e\/main.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/web\/assets\/98dc973e\/main-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/web\/assets\/98dc973e\/maximize.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/web\/assets\/98dc973e\/maximize.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/web\/assets\/98dc973e\/toolbar.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/web\/assets\/98dc973e\/toolbar-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/web\/assets\/98dc973e\/toolbar.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/web\/assets\/98dc973e\/toolbar-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/web\/assets\/a8cafb66\/jquery.js": {
 		"ft": 64,
 		"mi": 1,
@@ -17779,6 +17972,119 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/web\/assets\/c0984c31\/yii.validation-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/web\/assets\/edc929d5\/css\/bootstrap-theme.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/web\/assets\/edc929d5\/css\/bootstrap-theme-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/web\/assets\/edc929d5\/css\/bootstrap-theme.css.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/web\/assets\/edc929d5\/css\/bootstrap-theme.css.map",
+		"oF": 0
+		},
+	"\/web\/assets\/edc929d5\/css\/bootstrap-theme.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/web\/assets\/edc929d5\/css\/bootstrap-theme.min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/web\/assets\/edc929d5\/css\/bootstrap.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/web\/assets\/edc929d5\/css\/bootstrap-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/web\/assets\/edc929d5\/css\/bootstrap.css.map": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/web\/assets\/edc929d5\/css\/bootstrap.css.map",
+		"oF": 0
+		},
+	"\/web\/assets\/edc929d5\/css\/bootstrap.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/web\/assets\/edc929d5\/css\/bootstrap.min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
+	"\/web\/assets\/edc929d5\/fonts\/glyphicons-halflings-regular.eot": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/web\/assets\/edc929d5\/fonts\/glyphicons-halflings-regular.eot",
+		"oF": 0
+		},
+	"\/web\/assets\/edc929d5\/fonts\/glyphicons-halflings-regular.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/web\/assets\/edc929d5\/fonts\/glyphicons-halflings-regular.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/web\/assets\/edc929d5\/fonts\/glyphicons-halflings-regular.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/web\/assets\/edc929d5\/fonts\/glyphicons-halflings-regular.ttf",
+		"oF": 0
+		},
+	"\/web\/assets\/edc929d5\/fonts\/glyphicons-halflings-regular.woff": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/web\/assets\/edc929d5\/fonts\/glyphicons-halflings-regular.woff",
+		"oF": 0
+		},
+	"\/web\/assets\/edc929d5\/fonts\/glyphicons-halflings-regular.woff2": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/web\/assets\/edc929d5\/fonts\/glyphicons-halflings-regular.woff2",
+		"oF": 0
+		},
+	"\/web\/assets\/edc929d5\/js\/bootstrap.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/web\/assets\/edc929d5\/js\/bootstrap-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/web\/assets\/edc929d5\/js\/bootstrap.min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/web\/assets\/edc929d5\/js\/bootstrap.min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/web\/assets\/edc929d5\/js\/npm.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/web\/assets\/edc929d5\/js\/npm-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -17894,17 +18200,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/web\/webAssets\/images\/logo-giro.png": {
-		"ft": 32768,
-		"iS": 9138,
-		"oA": 0,
-		"oAP": "\/web\/webAssets\/images\/logo-giro.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"\/web\/webAssets\/images\/ribbon.png": {
 		"ft": 32768,
 		"iS": 8963,
@@ -17914,26 +18209,6 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
-		"q": 100
-		},
-	"\/web\/webAssets\/images\/web-bkgd-movil.jpg": {
-		"ft": 16384,
-		"iS": 109896,
-		"oA": 0,
-		"oAP": "\/web\/webAssets\/images\/web-bkgd-movil.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/web\/webAssets\/images\/web-bkgd.jpg": {
-		"ft": 16384,
-		"iS": 251617,
-		"oA": 0,
-		"oAP": "\/web\/webAssets\/images\/web-bkgd.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
 		"q": 100
 		},
 	"\/web\/webAssets\/js\/jquery-3.1.1.min.js": {
